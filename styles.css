@@ -1,0 +1,17 @@
+.container {
+    width: 338px;
+    height: 338px;
+    margin: 20px;
+    border: 25px solid #333;
+}
+.blue {
+    float: left;
+    width: 80px;
+    height: 80px;
+    background-color: blue;
+    font-size:50px;
+    text-align:center;
+    display: table-cell;
+    vertical-align:middle;
+    margin: 2px;
+}
