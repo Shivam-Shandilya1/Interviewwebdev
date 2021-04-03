@@ -1,7 +1,13 @@
-
+var count = 0
 $(".blue").on("click", function() {
-    $(this).css("background-color", "red");
+    $(this).removeClass("blue");
+    $(this).addClass("red");
 });
-$(".blue").setTimeout(() => {
-    
-}, timeout);
+$(".blue").on("click",function()
+    {
+        count+=1;
+    });
+    if(count>2)
+    {
+        
+    }
