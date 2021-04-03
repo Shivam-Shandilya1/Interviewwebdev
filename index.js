@@ -1,16 +1,19 @@
-var count = 0;
+var count = 0,secondLast = count-2;
 var numclick = 0;
 $(".blue").on("click", function() {
-    $(this).removeClass("blue");
-    $(this).addClass("red");
+    
+   
     numclick+=1;
-});
-$(".blue").on("click",function()
-    {
-        count+=1;
+    count+=1;
+        $(this).removeClass("blue");
+        console.log("w"+count);
+        $(this).addClass("red w"+count);
         if(count>2)
         {
-            $(".red").removeClass("red").addClass("blue");
+            
+            $(".w"+count-2).removeClass("red").removeClass("w1").addClass("blue");
         }
-    });
+    
+});
+
    
