@@ -1,8 +1,19 @@
+body
+{
+   background-color: #0a0909;
+}
+h1
+{
+   color:white;
+   font-weight: 900;
+   font-size: 5rem;
+}
 .container {
     width: 338px;
     height: 338px;
     margin: 20px;
     border: 25px solid #333;
+    margin-top:14%;
 }
 .blue {
     float: left;
